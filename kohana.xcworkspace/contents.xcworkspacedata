@@ -1,0 +1,2902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:application"
+      name = "application">
+      <FileRef
+         location = "group:bootstrap.php">
+      </FileRef>
+      <Group
+         location = "group:cache"
+         name = "cache">
+      </Group>
+      <Group
+         location = "group:classes"
+         name = "classes">
+         <Group
+            location = "group:Controller"
+            name = "Controller">
+            <FileRef
+               location = "group:Welcome.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Model"
+            name = "Model">
+         </Group>
+      </Group>
+      <Group
+         location = "group:config"
+         name = "config">
+      </Group>
+      <Group
+         location = "group:i18n"
+         name = "i18n">
+      </Group>
+      <Group
+         location = "group:logs"
+         name = "logs">
+      </Group>
+      <Group
+         location = "group:messages"
+         name = "messages">
+      </Group>
+      <Group
+         location = "group:views"
+         name = "views">
+      </Group>
+   </Group>
+   <Group
+      location = "group:modules"
+      name = "modules">
+      <Group
+         location = "group:auth"
+         name = "auth">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Auth"
+               name = "Auth">
+               <FileRef
+                  location = "group:File.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Auth.php">
+            </FileRef>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Auth"
+                  name = "Auth">
+                  <FileRef
+                     location = "group:File.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Auth.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:auth.php">
+            </FileRef>
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:auth"
+               name = "auth">
+               <FileRef
+                  location = "group:config.md">
+               </FileRef>
+               <Group
+                  location = "group:driver"
+                  name = "driver">
+                  <FileRef
+                     location = "group:develop.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file.md">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:login.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:cache"
+         name = "cache">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Cache"
+               name = "Cache">
+               <FileRef
+                  location = "group:Apc.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Arithmetic.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+               <FileRef
+                  location = "group:File.php">
+               </FileRef>
+               <FileRef
+                  location = "group:GarbageCollect.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Memcache.php">
+               </FileRef>
+               <FileRef
+                  location = "group:MemcacheTag.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Sqlite.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Tagging.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Wincache.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Cache.php">
+            </FileRef>
+            <Group
+               location = "group:HTTP"
+               name = "HTTP">
+               <FileRef
+                  location = "group:Cache.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Cache"
+                  name = "Cache">
+                  <FileRef
+                     location = "group:Apc.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Arithmetic.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Exception.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:File.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GarbageCollect.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Memcache.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MemcacheTag.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sqlite.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tagging.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Wincache.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Cache.php">
+               </FileRef>
+               <Group
+                  location = "group:HTTP"
+                  name = "HTTP">
+                  <FileRef
+                     location = "group:Cache.php">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:cache.php">
+            </FileRef>
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:cache"
+               name = "cache">
+               <FileRef
+                  location = "group:config.md">
+               </FileRef>
+               <FileRef
+                  location = "group:examples.md">
+               </FileRef>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:usage.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:cache.usage.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:tests"
+            name = "tests">
+            <Group
+               location = "group:cache"
+               name = "cache">
+               <Group
+                  location = "group:arithmetic"
+                  name = "arithmetic">
+                  <FileRef
+                     location = "group:ApcTest.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CacheArithmeticMethods.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MemcacheTest.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:CacheBasicMethodsTest.php">
+               </FileRef>
+               <FileRef
+                  location = "group:CacheTest.php">
+               </FileRef>
+               <FileRef
+                  location = "group:FileTest.php">
+               </FileRef>
+               <Group
+                  location = "group:request"
+                  name = "request">
+                  <Group
+                     location = "group:client"
+                     name = "client">
+                     <FileRef
+                        location = "group:CacheTest.php">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:SqliteTest.php">
+               </FileRef>
+               <FileRef
+                  location = "group:WincacheTest.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:phpunit.xml">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:codebench"
+         name = "codebench">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Bench"
+               name = "Bench">
+               <FileRef
+                  location = "group:ArrCallback.php">
+               </FileRef>
+               <FileRef
+                  location = "group:AutoLinkEmails.php">
+               </FileRef>
+               <FileRef
+                  location = "group:DateSpan.php">
+               </FileRef>
+               <FileRef
+                  location = "group:ExplodeLimit.php">
+               </FileRef>
+               <FileRef
+                  location = "group:GruberURL.php">
+               </FileRef>
+               <FileRef
+                  location = "group:LtrimDigits.php">
+               </FileRef>
+               <FileRef
+                  location = "group:MDDoBaseURL.php">
+               </FileRef>
+               <FileRef
+                  location = "group:MDDoImageURL.php">
+               </FileRef>
+               <FileRef
+                  location = "group:MDDoIncludeViews.php">
+               </FileRef>
+               <FileRef
+                  location = "group:StripNullBytes.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Transliterate.php">
+               </FileRef>
+               <FileRef
+                  location = "group:URLSite.php">
+               </FileRef>
+               <FileRef
+                  location = "group:UserFuncArray.php">
+               </FileRef>
+               <FileRef
+                  location = "group:ValidColor.php">
+               </FileRef>
+               <FileRef
+                  location = "group:ValidURL.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Codebench.php">
+            </FileRef>
+            <Group
+               location = "group:Controller"
+               name = "Controller">
+               <FileRef
+                  location = "group:Codebench.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <FileRef
+                  location = "group:Codebench.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:codebench.php">
+            </FileRef>
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:codebench"
+               name = "codebench">
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:init.php">
+         </FileRef>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <Group
+            location = "group:media"
+            name = "media">
+            <Group
+               location = "group:guide"
+               name = "guide">
+               <Group
+                  location = "group:codebench"
+                  name = "codebench">
+                  <FileRef
+                     location = "group:codebench_screenshot1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:codebench_screenshot2.png">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:views"
+            name = "views">
+            <FileRef
+               location = "group:codebench.php">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:database"
+         name = "database">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Config"
+               name = "Config">
+               <Group
+                  location = "group:Database"
+                  name = "Database">
+                  <FileRef
+                     location = "group:Reader.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Writer.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Database.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Database"
+               name = "Database">
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Expression.php">
+               </FileRef>
+               <Group
+                  location = "group:MySQL"
+                  name = "MySQL">
+                  <FileRef
+                     location = "group:Result.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:MySQL.php">
+               </FileRef>
+               <FileRef
+                  location = "group:PDO.php">
+               </FileRef>
+               <Group
+                  location = "group:Query"
+                  name = "Query">
+                  <Group
+                     location = "group:Builder"
+                     name = "Builder">
+                     <FileRef
+                        location = "group:Delete.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Insert.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Join.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Select.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Update.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Where.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Builder.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Query.php">
+               </FileRef>
+               <Group
+                  location = "group:Result"
+                  name = "Result">
+                  <FileRef
+                     location = "group:Cached.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Result.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Database.php">
+            </FileRef>
+            <FileRef
+               location = "group:DB.php">
+            </FileRef>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Config"
+                  name = "Config">
+                  <Group
+                     location = "group:Database"
+                     name = "Database">
+                     <FileRef
+                        location = "group:Reader.php">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Writer.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Database.php">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Database"
+                  name = "Database">
+                  <FileRef
+                     location = "group:Exception.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Expression.php">
+                  </FileRef>
+                  <Group
+                     location = "group:MySQL"
+                     name = "MySQL">
+                     <FileRef
+                        location = "group:Result.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:MySQL.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PDO.php">
+                  </FileRef>
+                  <Group
+                     location = "group:Query"
+                     name = "Query">
+                     <Group
+                        location = "group:Builder"
+                        name = "Builder">
+                        <FileRef
+                           location = "group:Delete.php">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Insert.php">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Join.php">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Select.php">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Update.php">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Where.php">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:Builder.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Query.php">
+                  </FileRef>
+                  <Group
+                     location = "group:Result"
+                     name = "Result">
+                     <FileRef
+                        location = "group:Cached.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Result.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Database.php">
+               </FileRef>
+               <FileRef
+                  location = "group:DB.php">
+               </FileRef>
+               <Group
+                  location = "group:Model"
+                  name = "Model">
+                  <FileRef
+                     location = "group:Database.php">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Session"
+                  name = "Session">
+                  <FileRef
+                     location = "group:Database.php">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Model"
+               name = "Model">
+               <FileRef
+                  location = "group:Database.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Session"
+               name = "Session">
+               <FileRef
+                  location = "group:Database.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:database.php">
+            </FileRef>
+            <FileRef
+               location = "group:session.php">
+            </FileRef>
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:database"
+               name = "database">
+               <FileRef
+                  location = "group:config.md">
+               </FileRef>
+               <FileRef
+                  location = "group:examples.md">
+               </FileRef>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <Group
+                  location = "group:query"
+                  name = "query">
+                  <FileRef
+                     location = "group:builder.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:parameterized.md">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:query.md">
+               </FileRef>
+               <FileRef
+                  location = "group:results.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:image"
+         name = "image">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Image"
+               name = "Image">
+               <FileRef
+                  location = "group:GD.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Imagick.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Image.php">
+            </FileRef>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Image"
+                  name = "Image">
+                  <FileRef
+                     location = "group:GD.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Imagick.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Image.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:image"
+               name = "image">
+               <Group
+                  location = "group:examples"
+                  name = "examples">
+                  <FileRef
+                     location = "group:crop.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dynamic.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:upload.md">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:examples.md">
+               </FileRef>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:using.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <Group
+            location = "group:media"
+            name = "media">
+            <Group
+               location = "group:guide"
+               name = "guide">
+               <Group
+                  location = "group:image"
+                  name = "image">
+                  <FileRef
+                     location = "group:crop_form.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:crop_orig.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:crop_result.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dynamic-400.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dynamic-600.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Thumbs.db">
+                  </FileRef>
+                  <FileRef
+                     location = "group:upload_form.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:upload_result.jpg">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.markdown">
+         </FileRef>
+         <Group
+            location = "group:tests"
+            name = "tests">
+            <Group
+               location = "group:kohana"
+               name = "kohana">
+               <FileRef
+                  location = "group:ImageTest.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:test_data"
+               name = "test_data">
+               <FileRef
+                  location = "group:test_image">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:minion"
+         name = "minion">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Minion"
+                  name = "Minion">
+                  <FileRef
+                     location = "group:CLI.php">
+                  </FileRef>
+                  <Group
+                     location = "group:Exception"
+                     name = "Exception">
+                     <FileRef
+                        location = "group:InvalidTask.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Exception.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Task.php">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Minion"
+               name = "Minion">
+               <FileRef
+                  location = "group:CLI.php">
+               </FileRef>
+               <Group
+                  location = "group:Exception"
+                  name = "Exception">
+                  <FileRef
+                     location = "group:InvalidTask.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Task.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Task"
+               name = "Task">
+               <FileRef
+                  location = "group:Help.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:minion"
+               name = "minion">
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:setup.md">
+               </FileRef>
+               <FileRef
+                  location = "group:tasks.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <Group
+            location = "group:messages"
+            name = "messages">
+            <FileRef
+               location = "group:validation.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:minion">
+         </FileRef>
+         <FileRef
+            location = "group:miniond">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:tests"
+            name = "tests">
+            <Group
+               location = "group:minion"
+               name = "minion">
+               <FileRef
+                  location = "group:TaskTest.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:views"
+            name = "views">
+            <Group
+               location = "group:minion"
+               name = "minion">
+               <Group
+                  location = "group:error"
+                  name = "error">
+                  <FileRef
+                     location = "group:validation.php">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:help"
+                  name = "help">
+                  <FileRef
+                     location = "group:error.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:list.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:task.php">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:orm"
+         name = "orm">
+         <FileRef
+            location = "group:auth-schema-mysql.sql">
+         </FileRef>
+         <FileRef
+            location = "group:auth-schema-postgresql.sql">
+         </FileRef>
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Auth"
+               name = "Auth">
+               <FileRef
+                  location = "group:ORM.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Auth"
+                  name = "Auth">
+                  <FileRef
+                     location = "group:ORM.php">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:ORM"
+                  name = "ORM">
+                  <Group
+                     location = "group:Validation"
+                     name = "Validation">
+                     <FileRef
+                        location = "group:Exception.php">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:ORM.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Model"
+               name = "Model">
+               <Group
+                  location = "group:Auth"
+                  name = "Auth">
+                  <FileRef
+                     location = "group:Role.php">
+                  </FileRef>
+                  <Group
+                     location = "group:User"
+                     name = "User">
+                     <FileRef
+                        location = "group:Token.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:User.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Role.php">
+               </FileRef>
+               <Group
+                  location = "group:User"
+                  name = "User">
+                  <FileRef
+                     location = "group:Token.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:User.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ORM"
+               name = "ORM">
+               <Group
+                  location = "group:Validation"
+                  name = "Validation">
+                  <FileRef
+                     location = "group:Exception.php">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ORM.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:orm"
+               name = "orm">
+               <Group
+                  location = "group:examples"
+                  name = "examples">
+                  <FileRef
+                     location = "group:simple.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:validation.md">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:examples.md">
+               </FileRef>
+               <FileRef
+                  location = "group:filters.md">
+               </FileRef>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:models.md">
+               </FileRef>
+               <FileRef
+                  location = "group:relationships.md">
+               </FileRef>
+               <FileRef
+                  location = "group:tutorials.md">
+               </FileRef>
+               <FileRef
+                  location = "group:upgrading.md">
+               </FileRef>
+               <FileRef
+                  location = "group:using.md">
+               </FileRef>
+               <FileRef
+                  location = "group:validation.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:unittest"
+         name = "unittest">
+         <FileRef
+            location = "group:bootstrap.php">
+         </FileRef>
+         <FileRef
+            location = "group:bootstrap_all_modules.php">
+         </FileRef>
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Unittest"
+                  name = "Unittest">
+                  <Group
+                     location = "group:Database"
+                     name = "Database">
+                     <FileRef
+                        location = "group:TestCase.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Helpers.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TestCase.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tests.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TestSuite.php">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Unittest"
+               name = "Unittest">
+               <Group
+                  location = "group:Database"
+                  name = "Database">
+                  <FileRef
+                     location = "group:TestCase.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Helpers.php">
+               </FileRef>
+               <FileRef
+                  location = "group:TestCase.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Tests.php">
+               </FileRef>
+               <FileRef
+                  location = "group:TestSuite.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:unittest.php">
+            </FileRef>
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:example.phpunit.xml">
+         </FileRef>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:unittest"
+               name = "unittest">
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:mockobjects.md">
+               </FileRef>
+               <FileRef
+                  location = "group:testing.md">
+               </FileRef>
+               <FileRef
+                  location = "group:testing_workflows.md">
+               </FileRef>
+               <FileRef
+                  location = "group:troubleshooting.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <FileRef
+            location = "group:README.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:tests.php">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:userguide"
+         name = "userguide">
+         <Group
+            location = "group:classes"
+            name = "classes">
+            <Group
+               location = "group:Controller"
+               name = "Controller">
+               <FileRef
+                  location = "group:Userguide.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Kodoc"
+               name = "Kodoc">
+               <FileRef
+                  location = "group:Class.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Markdown.php">
+               </FileRef>
+               <Group
+                  location = "group:Method"
+                  name = "Method">
+                  <FileRef
+                     location = "group:Param.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Method.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Missing.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Property.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Kodoc.php">
+            </FileRef>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <Group
+                  location = "group:Controller"
+                  name = "Controller">
+                  <FileRef
+                     location = "group:Userguide.php">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Kodoc"
+                  name = "Kodoc">
+                  <FileRef
+                     location = "group:Class.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Markdown.php">
+                  </FileRef>
+                  <Group
+                     location = "group:Method"
+                     name = "Method">
+                     <FileRef
+                        location = "group:Param.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Method.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Missing.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Property.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Kodoc.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:composer.json">
+         </FileRef>
+         <Group
+            location = "group:config"
+            name = "config">
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:de-de"
+               name = "de-de">
+               <FileRef
+                  location = "group:about.conventions.md">
+               </FileRef>
+               <FileRef
+                  location = "group:about.kohana.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:developers.md">
+            </FileRef>
+            <Group
+               location = "group:userguide"
+               name = "userguide">
+               <FileRef
+                  location = "group:adding.md">
+               </FileRef>
+               <FileRef
+                  location = "group:config.md">
+               </FileRef>
+               <FileRef
+                  location = "group:contributing.md">
+               </FileRef>
+               <FileRef
+                  location = "group:index.md">
+               </FileRef>
+               <FileRef
+                  location = "group:markdown.md">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.md">
+               </FileRef>
+               <FileRef
+                  location = "group:modules.md">
+               </FileRef>
+               <FileRef
+                  location = "group:using.md">
+               </FileRef>
+               <FileRef
+                  location = "group:works.md">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:init.php">
+         </FileRef>
+         <FileRef
+            location = "group:koharness.php">
+         </FileRef>
+         <Group
+            location = "group:media"
+            name = "media">
+            <Group
+               location = "group:guide"
+               name = "guide">
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:api.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:kodoc.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:print.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:screen.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:shCore.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:shThemeDefault.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:shThemeKodoc.css">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:img"
+                  name = "img">
+                  <FileRef
+                     location = "group:arrows.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:breadcrumbs.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:content.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ext_link.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:h2_line.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:h3_line.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:header.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:kohana.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:lightbulb_48.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:lines.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:orange-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:wrapper.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:js"
+                  name = "js">
+                  <FileRef
+                     location = "group:jquery.cookie.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:jquery.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:kodoc.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:shBrushPhp.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:shCore.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sizzle.js">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:userguide"
+                  name = "userguide">
+                  <FileRef
+                     location = "group:contrib-github-edit.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:contrib-github-fork.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:contrib-github-pull.png">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:messages"
+            name = "messages">
+            <FileRef
+               location = "group:userguide.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:tests"
+            name = "tests">
+            <FileRef
+               location = "group:KodocTest.php">
+            </FileRef>
+            <Group
+               location = "group:userguide"
+               name = "userguide">
+               <FileRef
+                  location = "group:ControllerTest.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:vendor"
+            name = "vendor">
+            <Group
+               location = "group:markdown"
+               name = "markdown">
+               <FileRef
+                  location = "group:License.text">
+               </FileRef>
+               <FileRef
+                  location = "group:markdown.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:views"
+            name = "views">
+            <Group
+               location = "group:userguide"
+               name = "userguide">
+               <Group
+                  location = "group:api"
+                  name = "api">
+                  <FileRef
+                     location = "group:class.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:menu.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:method.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tags.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:toc.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:error.php">
+               </FileRef>
+               <Group
+                  location = "group:examples"
+                  name = "examples">
+                  <FileRef
+                     location = "group:error.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hello_world_error.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:index.php">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.php">
+               </FileRef>
+               <FileRef
+                  location = "group:page-toc.php">
+               </FileRef>
+               <FileRef
+                  location = "group:template.php">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:system"
+      name = "system">
+      <Group
+         location = "group:classes"
+         name = "classes">
+         <FileRef
+            location = "group:Arr.php">
+         </FileRef>
+         <Group
+            location = "group:Config"
+            name = "Config">
+            <FileRef
+               location = "group:File.php">
+            </FileRef>
+            <FileRef
+               location = "group:Group.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Config.php">
+         </FileRef>
+         <Group
+            location = "group:Controller"
+            name = "Controller">
+            <FileRef
+               location = "group:Template.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Controller.php">
+         </FileRef>
+         <FileRef
+            location = "group:Cookie.php">
+         </FileRef>
+         <FileRef
+            location = "group:Date.php">
+         </FileRef>
+         <FileRef
+            location = "group:Debug.php">
+         </FileRef>
+         <FileRef
+            location = "group:Encrypt.php">
+         </FileRef>
+         <FileRef
+            location = "group:Feed.php">
+         </FileRef>
+         <FileRef
+            location = "group:File.php">
+         </FileRef>
+         <FileRef
+            location = "group:Form.php">
+         </FileRef>
+         <FileRef
+            location = "group:Fragment.php">
+         </FileRef>
+         <FileRef
+            location = "group:HTML.php">
+         </FileRef>
+         <Group
+            location = "group:HTTP"
+            name = "HTTP">
+            <Group
+               location = "group:Exception"
+               name = "Exception">
+               <FileRef
+                  location = "group:300.php">
+               </FileRef>
+               <FileRef
+                  location = "group:301.php">
+               </FileRef>
+               <FileRef
+                  location = "group:302.php">
+               </FileRef>
+               <FileRef
+                  location = "group:303.php">
+               </FileRef>
+               <FileRef
+                  location = "group:304.php">
+               </FileRef>
+               <FileRef
+                  location = "group:305.php">
+               </FileRef>
+               <FileRef
+                  location = "group:307.php">
+               </FileRef>
+               <FileRef
+                  location = "group:400.php">
+               </FileRef>
+               <FileRef
+                  location = "group:401.php">
+               </FileRef>
+               <FileRef
+                  location = "group:402.php">
+               </FileRef>
+               <FileRef
+                  location = "group:403.php">
+               </FileRef>
+               <FileRef
+                  location = "group:404.php">
+               </FileRef>
+               <FileRef
+                  location = "group:405.php">
+               </FileRef>
+               <FileRef
+                  location = "group:406.php">
+               </FileRef>
+               <FileRef
+                  location = "group:407.php">
+               </FileRef>
+               <FileRef
+                  location = "group:408.php">
+               </FileRef>
+               <FileRef
+                  location = "group:409.php">
+               </FileRef>
+               <FileRef
+                  location = "group:410.php">
+               </FileRef>
+               <FileRef
+                  location = "group:411.php">
+               </FileRef>
+               <FileRef
+                  location = "group:412.php">
+               </FileRef>
+               <FileRef
+                  location = "group:413.php">
+               </FileRef>
+               <FileRef
+                  location = "group:414.php">
+               </FileRef>
+               <FileRef
+                  location = "group:415.php">
+               </FileRef>
+               <FileRef
+                  location = "group:416.php">
+               </FileRef>
+               <FileRef
+                  location = "group:417.php">
+               </FileRef>
+               <FileRef
+                  location = "group:500.php">
+               </FileRef>
+               <FileRef
+                  location = "group:501.php">
+               </FileRef>
+               <FileRef
+                  location = "group:502.php">
+               </FileRef>
+               <FileRef
+                  location = "group:503.php">
+               </FileRef>
+               <FileRef
+                  location = "group:504.php">
+               </FileRef>
+               <FileRef
+                  location = "group:505.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Expected.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Redirect.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+            <FileRef
+               location = "group:Header.php">
+            </FileRef>
+            <FileRef
+               location = "group:Message.php">
+            </FileRef>
+            <FileRef
+               location = "group:Request.php">
+            </FileRef>
+            <FileRef
+               location = "group:Response.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:HTTP.php">
+         </FileRef>
+         <FileRef
+            location = "group:I18n.php">
+         </FileRef>
+         <FileRef
+            location = "group:Inflector.php">
+         </FileRef>
+         <Group
+            location = "group:Kohana"
+            name = "Kohana">
+            <FileRef
+               location = "group:Arr.php">
+            </FileRef>
+            <Group
+               location = "group:Config"
+               name = "Config">
+               <Group
+                  location = "group:File"
+                  name = "File">
+                  <FileRef
+                     location = "group:Reader.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:File.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Group.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Reader.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Source.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Writer.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Config.php">
+            </FileRef>
+            <Group
+               location = "group:Controller"
+               name = "Controller">
+               <FileRef
+                  location = "group:Template.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Controller.php">
+            </FileRef>
+            <FileRef
+               location = "group:Cookie.php">
+            </FileRef>
+            <FileRef
+               location = "group:Core.php">
+            </FileRef>
+            <FileRef
+               location = "group:Date.php">
+            </FileRef>
+            <FileRef
+               location = "group:Debug.php">
+            </FileRef>
+            <FileRef
+               location = "group:Encrypt.php">
+            </FileRef>
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+            <FileRef
+               location = "group:Feed.php">
+            </FileRef>
+            <FileRef
+               location = "group:File.php">
+            </FileRef>
+            <FileRef
+               location = "group:Form.php">
+            </FileRef>
+            <FileRef
+               location = "group:Fragment.php">
+            </FileRef>
+            <FileRef
+               location = "group:HTML.php">
+            </FileRef>
+            <Group
+               location = "group:HTTP"
+               name = "HTTP">
+               <Group
+                  location = "group:Exception"
+                  name = "Exception">
+                  <FileRef
+                     location = "group:300.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:301.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:302.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:303.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:304.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:305.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:307.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:400.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:401.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:402.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:403.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:404.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:405.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:406.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:407.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:408.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:409.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:410.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:411.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:412.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:413.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:414.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:415.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:416.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:417.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:500.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:501.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:502.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:503.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:504.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:505.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Expected.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Redirect.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Header.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Message.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Request.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Response.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:HTTP.php">
+            </FileRef>
+            <FileRef
+               location = "group:I18n.php">
+            </FileRef>
+            <FileRef
+               location = "group:Inflector.php">
+            </FileRef>
+            <Group
+               location = "group:Kohana"
+               name = "Kohana">
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Log"
+               name = "Log">
+               <FileRef
+                  location = "group:File.php">
+               </FileRef>
+               <FileRef
+                  location = "group:StdErr.php">
+               </FileRef>
+               <FileRef
+                  location = "group:StdOut.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Syslog.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Writer.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Log.php">
+            </FileRef>
+            <FileRef
+               location = "group:Model.php">
+            </FileRef>
+            <FileRef
+               location = "group:Num.php">
+            </FileRef>
+            <FileRef
+               location = "group:Profiler.php">
+            </FileRef>
+            <Group
+               location = "group:Request"
+               name = "Request">
+               <Group
+                  location = "group:Client"
+                  name = "Client">
+                  <FileRef
+                     location = "group:Curl.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:External.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HTTP.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Internal.php">
+                  </FileRef>
+                  <Group
+                     location = "group:Recursion"
+                     name = "Recursion">
+                     <FileRef
+                        location = "group:Exception.php">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Stream.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Client.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Request.php">
+            </FileRef>
+            <FileRef
+               location = "group:Response.php">
+            </FileRef>
+            <FileRef
+               location = "group:Route.php">
+            </FileRef>
+            <FileRef
+               location = "group:Security.php">
+            </FileRef>
+            <Group
+               location = "group:Session"
+               name = "Session">
+               <FileRef
+                  location = "group:Cookie.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Native.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Session.php">
+            </FileRef>
+            <FileRef
+               location = "group:Text.php">
+            </FileRef>
+            <FileRef
+               location = "group:Upload.php">
+            </FileRef>
+            <FileRef
+               location = "group:URL.php">
+            </FileRef>
+            <Group
+               location = "group:UTF8"
+               name = "UTF8">
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:UTF8.php">
+            </FileRef>
+            <FileRef
+               location = "group:Valid.php">
+            </FileRef>
+            <Group
+               location = "group:Validation"
+               name = "Validation">
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Validation.php">
+            </FileRef>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:Exception.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:View.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Kohana.php">
+         </FileRef>
+         <Group
+            location = "group:Log"
+            name = "Log">
+            <FileRef
+               location = "group:File.php">
+            </FileRef>
+            <FileRef
+               location = "group:StdErr.php">
+            </FileRef>
+            <FileRef
+               location = "group:StdOut.php">
+            </FileRef>
+            <FileRef
+               location = "group:Syslog.php">
+            </FileRef>
+            <FileRef
+               location = "group:Writer.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Log.php">
+         </FileRef>
+         <FileRef
+            location = "group:Model.php">
+         </FileRef>
+         <FileRef
+            location = "group:Num.php">
+         </FileRef>
+         <FileRef
+            location = "group:Profiler.php">
+         </FileRef>
+         <Group
+            location = "group:Request"
+            name = "Request">
+            <Group
+               location = "group:Client"
+               name = "Client">
+               <FileRef
+                  location = "group:Curl.php">
+               </FileRef>
+               <FileRef
+                  location = "group:External.php">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTP.php">
+               </FileRef>
+               <FileRef
+                  location = "group:Internal.php">
+               </FileRef>
+               <Group
+                  location = "group:Recursion"
+                  name = "Recursion">
+                  <FileRef
+                     location = "group:Exception.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Stream.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Client.php">
+            </FileRef>
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Request.php">
+         </FileRef>
+         <FileRef
+            location = "group:Response.php">
+         </FileRef>
+         <FileRef
+            location = "group:Route.php">
+         </FileRef>
+         <FileRef
+            location = "group:Security.php">
+         </FileRef>
+         <Group
+            location = "group:Session"
+            name = "Session">
+            <FileRef
+               location = "group:Cookie.php">
+            </FileRef>
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+            <FileRef
+               location = "group:Native.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Session.php">
+         </FileRef>
+         <FileRef
+            location = "group:Text.php">
+         </FileRef>
+         <FileRef
+            location = "group:Upload.php">
+         </FileRef>
+         <FileRef
+            location = "group:URL.php">
+         </FileRef>
+         <Group
+            location = "group:UTF8"
+            name = "UTF8">
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:UTF8.php">
+         </FileRef>
+         <FileRef
+            location = "group:Valid.php">
+         </FileRef>
+         <Group
+            location = "group:Validation"
+            name = "Validation">
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Validation.php">
+         </FileRef>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:Exception.php">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:View.php">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:composer.json">
+      </FileRef>
+      <Group
+         location = "group:config"
+         name = "config">
+         <FileRef
+            location = "group:credit_cards.php">
+         </FileRef>
+         <FileRef
+            location = "group:curl.php">
+         </FileRef>
+         <FileRef
+            location = "group:encrypt.php">
+         </FileRef>
+         <FileRef
+            location = "group:inflector.php">
+         </FileRef>
+         <FileRef
+            location = "group:mimes.php">
+         </FileRef>
+         <FileRef
+            location = "group:session.php">
+         </FileRef>
+         <FileRef
+            location = "group:user_agents.php">
+         </FileRef>
+         <FileRef
+            location = "group:userguide.php">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:guide"
+         name = "guide">
+         <Group
+            location = "group:kohana"
+            name = "kohana">
+            <FileRef
+               location = "group:autoloading.md">
+            </FileRef>
+            <FileRef
+               location = "group:bootstrap.md">
+            </FileRef>
+            <FileRef
+               location = "group:config.md">
+            </FileRef>
+            <FileRef
+               location = "group:controllers.md">
+            </FileRef>
+            <FileRef
+               location = "group:conventions.md">
+            </FileRef>
+            <FileRef
+               location = "group:cookies.md">
+            </FileRef>
+            <FileRef
+               location = "group:debugging.md">
+            </FileRef>
+            <FileRef
+               location = "group:errors.md">
+            </FileRef>
+            <FileRef
+               location = "group:extension.md">
+            </FileRef>
+            <Group
+               location = "group:files"
+               name = "files">
+               <FileRef
+                  location = "group:classes.md">
+               </FileRef>
+               <FileRef
+                  location = "group:config.md">
+               </FileRef>
+               <FileRef
+                  location = "group:i18n.md">
+               </FileRef>
+               <FileRef
+                  location = "group:messages.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:files.md">
+            </FileRef>
+            <FileRef
+               location = "group:flow.md">
+            </FileRef>
+            <FileRef
+               location = "group:fragments.md">
+            </FileRef>
+            <FileRef
+               location = "group:helpers.md">
+            </FileRef>
+            <FileRef
+               location = "group:index.md">
+            </FileRef>
+            <FileRef
+               location = "group:install.md">
+            </FileRef>
+            <FileRef
+               location = "group:menu.md">
+            </FileRef>
+            <FileRef
+               location = "group:modules.md">
+            </FileRef>
+            <Group
+               location = "group:mvc"
+               name = "mvc">
+               <FileRef
+                  location = "group:controllers.md">
+               </FileRef>
+               <FileRef
+                  location = "group:models.md">
+               </FileRef>
+               <FileRef
+                  location = "group:views.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:mvc.md">
+            </FileRef>
+            <FileRef
+               location = "group:profiling.md">
+            </FileRef>
+            <FileRef
+               location = "group:requests.md">
+            </FileRef>
+            <FileRef
+               location = "group:routing.md">
+            </FileRef>
+            <Group
+               location = "group:security"
+               name = "security">
+               <FileRef
+                  location = "group:cookies.md">
+               </FileRef>
+               <FileRef
+                  location = "group:database.md">
+               </FileRef>
+               <FileRef
+                  location = "group:deploying.md">
+               </FileRef>
+               <FileRef
+                  location = "group:encryption.md">
+               </FileRef>
+               <FileRef
+                  location = "group:validation.md">
+               </FileRef>
+               <FileRef
+                  location = "group:xss.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:security.md">
+            </FileRef>
+            <FileRef
+               location = "group:sessions.md">
+            </FileRef>
+            <FileRef
+               location = "group:tips.md">
+            </FileRef>
+            <Group
+               location = "group:tutorials"
+               name = "tutorials">
+               <FileRef
+                  location = "group:clean-urls.md">
+               </FileRef>
+               <FileRef
+                  location = "group:error-pages.md">
+               </FileRef>
+               <FileRef
+                  location = "group:git.md">
+               </FileRef>
+               <FileRef
+                  location = "group:hello-world.md">
+               </FileRef>
+               <FileRef
+                  location = "group:library-kohana.md">
+               </FileRef>
+               <FileRef
+                  location = "group:sharing-kohana.md">
+               </FileRef>
+               <FileRef
+                  location = "group:simple-mvc.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:upgrading.md">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:i18n"
+         name = "i18n">
+         <FileRef
+            location = "group:en.php">
+         </FileRef>
+         <FileRef
+            location = "group:es.php">
+         </FileRef>
+         <FileRef
+            location = "group:fr.php">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:koharness.php">
+      </FileRef>
+      <Group
+         location = "group:media"
+         name = "media">
+         <Group
+            location = "group:guide"
+            name = "guide">
+            <Group
+               location = "group:kohana"
+               name = "kohana">
+               <FileRef
+                  location = "group:cascading_filesystem.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hello_world_1.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hello_world_2.png">
+               </FileRef>
+               <FileRef
+                  location = "group:hello_world_2_error.png">
+               </FileRef>
+               <FileRef
+                  location = "group:install.png">
+               </FileRef>
+               <FileRef
+                  location = "group:welcome.png">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:messages"
+         name = "messages">
+         <Group
+            location = "group:tests"
+            name = "tests">
+            <Group
+               location = "group:validation"
+               name = "validation">
+               <FileRef
+                  location = "group:error_type_check.php">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:validation.php">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:tests"
+         name = "tests">
+         <Group
+            location = "group:kohana"
+            name = "kohana">
+            <FileRef
+               location = "group:ArrTest.php">
+            </FileRef>
+            <Group
+               location = "group:Config"
+               name = "Config">
+               <Group
+                  location = "group:File"
+                  name = "File">
+                  <FileRef
+                     location = "group:ReaderTest.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GroupTest.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ConfigTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:CookieTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:CoreTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:DateTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:DebugTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:ExceptionTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:FeedTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:FileTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:FormTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:HTMLTest.php">
+            </FileRef>
+            <Group
+               location = "group:Http"
+               name = "Http">
+               <FileRef
+                  location = "group:HeaderTest.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:HTTPTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:I18nTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:InflectorTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:LogTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:ModelTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:NumTest.php">
+            </FileRef>
+            <Group
+               location = "group:request"
+               name = "request">
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:ExternalTest.php">
+                  </FileRef>
+                  <FileRef
+                     location = "group:InternalTest.php">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ClientTest.php">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:RequestTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:ResponseTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:RouteTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:SecurityTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:SessionTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:TextTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:UploadTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:URLTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:UTF8Test.php">
+            </FileRef>
+            <FileRef
+               location = "group:ValidationTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:ValidTest.php">
+            </FileRef>
+            <FileRef
+               location = "group:ViewTest.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:test_data"
+            name = "test_data">
+            <FileRef
+               location = "group:callback_routes.php">
+            </FileRef>
+            <Group
+               location = "group:feeds"
+               name = "feeds">
+               <FileRef
+                  location = "group:activity.atom">
+               </FileRef>
+               <FileRef
+                  location = "group:example.rss20">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:github.png">
+            </FileRef>
+            <Group
+               location = "group:message_tests"
+               name = "message_tests">
+               <Group
+                  location = "group:bottom_module"
+                  name = "bottom_module">
+                  <Group
+                     location = "group:messages"
+                     name = "messages">
+                     <FileRef
+                        location = "group:kohana_core_message_tests.php">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:top_module"
+                  name = "top_module">
+                  <Group
+                     location = "group:messages"
+                     name = "messages">
+                     <FileRef
+                        location = "group:kohana_core_message_tests.php">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:views"
+               name = "views">
+               <FileRef
+                  location = "group:test.css.php">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:utf8"
+         name = "utf8">
+         <FileRef
+            location = "group:from_unicode.php">
+         </FileRef>
+         <FileRef
+            location = "group:ltrim.php">
+         </FileRef>
+         <FileRef
+            location = "group:ord.php">
+         </FileRef>
+         <FileRef
+            location = "group:rtrim.php">
+         </FileRef>
+         <FileRef
+            location = "group:str_ireplace.php">
+         </FileRef>
+         <FileRef
+            location = "group:str_pad.php">
+         </FileRef>
+         <FileRef
+            location = "group:str_split.php">
+         </FileRef>
+         <FileRef
+            location = "group:strcasecmp.php">
+         </FileRef>
+         <FileRef
+            location = "group:strcspn.php">
+         </FileRef>
+         <FileRef
+            location = "group:stristr.php">
+         </FileRef>
+         <FileRef
+            location = "group:strlen.php">
+         </FileRef>
+         <FileRef
+            location = "group:strpos.php">
+         </FileRef>
+         <FileRef
+            location = "group:strrev.php">
+         </FileRef>
+         <FileRef
+            location = "group:strrpos.php">
+         </FileRef>
+         <FileRef
+            location = "group:strspn.php">
+         </FileRef>
+         <FileRef
+            location = "group:strtolower.php">
+         </FileRef>
+         <FileRef
+            location = "group:strtoupper.php">
+         </FileRef>
+         <FileRef
+            location = "group:substr.php">
+         </FileRef>
+         <FileRef
+            location = "group:substr_replace.php">
+         </FileRef>
+         <FileRef
+            location = "group:to_unicode.php">
+         </FileRef>
+         <FileRef
+            location = "group:transliterate_to_ascii.php">
+         </FileRef>
+         <FileRef
+            location = "group:trim.php">
+         </FileRef>
+         <FileRef
+            location = "group:ucfirst.php">
+         </FileRef>
+         <FileRef
+            location = "group:ucwords.php">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:views"
+         name = "views">
+         <Group
+            location = "group:kohana"
+            name = "kohana">
+            <FileRef
+               location = "group:error.php">
+            </FileRef>
+            <FileRef
+               location = "group:generate_logo.php">
+            </FileRef>
+            <FileRef
+               location = "group:logo.php">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:profiler"
+            name = "profiler">
+            <FileRef
+               location = "group:stats.php">
+            </FileRef>
+            <FileRef
+               location = "group:style.css">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:build.xml">
+   </FileRef>
+   <FileRef
+      location = "group:composer.json">
+   </FileRef>
+   <FileRef
+      location = "group:CONTRIBUTING.md">
+   </FileRef>
+   <FileRef
+      location = "group:example.htaccess">
+   </FileRef>
+   <FileRef
+      location = "group:index.php">
+   </FileRef>
+   <FileRef
+      location = "group:install.php">
+   </FileRef>
+   <FileRef
+      location = "group:kohana.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE.md">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+</Workspace>
